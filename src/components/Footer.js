@@ -30,14 +30,14 @@ const downloadOptions = [
 function Footer() {
     return (
         <div className='bg-gray mt-10 text-[#484747]'>
-            <div className=' mx-28 py-14 flex text-[20px] '>
-                <div className='grid grid-cols-8 '>
-                    <div className='col-start-1 col-end-4 '>
+            <div className=' mx-3 md:mx-28 py-14 flex text-[20px] '>
+                <div className='grid grid-cols-8  gap-10 md:gap-0'>
+                    <div className='col-start-1 col-end-9 md:col-start-1 md:col-end-4 '>
                         <img src={logo2} />
                         <p className='pt-5 '>KIVLIK is a mobile steam car wash company, which offers premium car wash and detailing services at your doorstep. Conveniently book a car wash with a few taps on your phone. KIVLIK has several packages to meet your budget and requirements. Conveniently book a carwash with a few taps using the KIVLIK App or website. You can pick a time, location and package from the App or web. KIVLIK washes each vehicle using our Steam Cleaning system.</p>
                     </div>
-                    <div className=' col-start-4 col-end-6 px-16'>
-                        <p className='text-[30px] uppercase text-primary' >company</p>
+                    <div className=' col-start-1 col-end-4 md:col-start-4 md:col-end-6 md:px-16'>
+                        <p className='text-[25px] md:text-[30px] uppercase text-primary' >company</p>
                         <ul className='pt-5 capitalize text-[#484847]'>
                             {company.map((item, i) => (
                                 <a key={i} href={item.url}>
@@ -46,10 +46,10 @@ function Footer() {
                             ))}
                         </ul>
                     </div>
-                    <div className='col-start-6 col-end-9' >
+                    <div className='col-start-4 col-end-9 md:col-start-6 md:col-end-9 md:px-16' >
                         <div>
-                            <p className='text-[30px] text-primary'>Got Question ?</p>
-                            <p className='text-[40px] text-primary'>Help Center</p>
+                            <p className='text-[25px] md:text-[30px] text-primary'>Got Questions?</p>
+                            <p className='text-[30px] md:text-[40px] text-primary'>Help Center</p>
                         </div>
                         <div className='flex justify-end'>
                             <img src={arrow} />

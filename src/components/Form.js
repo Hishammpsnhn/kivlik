@@ -2,34 +2,34 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='mx-28'>
+    <div className='mx-3 md:mx-28'>
       <div className='text-primary mt-10'>
-        <p className='font-sans text-[30px] font-bold '>Personal Details</p>
-        <p className='text-[20px]'>Pleade complete the below form and attach cv.</p>
+        <p className='font-sans text-[25px] md:text-[30px] font-bold '>Personal Details</p>
+        <p className='text-[15px] md:text-[20px]'>Pleade complete the below form and attach cv.</p>
         <form class="w-full  mt-10">
           <div class="w-full md:w-[33%]  mb-6 md:mb-0">
             <label class="block  tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
               Email Address
             </label>
-            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="email" />
           </div>
-          <div class="flex flex-wrap -mx-3 ">
-            <div class="w-full md:w-[33%] pl-3 mb-6 md:mb-0">
+          <div class="flex flex-wrap ">
+            <div class="w-full md:w-[33%]  mb-6 md:mb-0 ">
               <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 First Name
               </label>
               <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4  leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
             </div>
-            <div class="w-full md:w-[33%] pl-3 mb-6 md:mb-0">
+            <div class="w-full md:w-[33%] mb-6 md:mb-0 md:pl-3">
               <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Last Name
               </label>
               <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
-            </div>            <div class="w-full md:w-[33%] pl-3 mb-6 md:mb-0">
+            </div>            <div class="w-full md:w-[33%] md:pl-3 mb-6 md:mb-0">
               <label class="block tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                 Telephone
               </label>
-              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4  leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" />
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded-2xl py-3 px-4  leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="number" />
               <p class="text-red-500 text-xs italic">Please include your country area code.</p>
             </div>
           </div>
