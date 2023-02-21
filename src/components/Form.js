@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div >
+    <div className='mx-28'>
       <div className='text-primary mt-10'>
         <p className='font-sans text-[30px] font-bold '>Personal Details</p>
         <p className='text-[20px]'>Pleade complete the below form and attach cv.</p>

@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import background from "../assests/wave.png";
 import chair from '../assests/Group 542.png'
 import Form from '../components/Form';
+import Footer from '../components/Footer';
 function Home() {
     return (
         <>
@@ -20,9 +21,8 @@ function Home() {
                     <img className='col-span-2 w-[350px] h-[500px] mt-[25px]' src={chair} />
                 </div>
             </div>
-            <div className='mx-28'>
                 <Form />
-            </div>
+                <Footer />
         </>
     )
 }
