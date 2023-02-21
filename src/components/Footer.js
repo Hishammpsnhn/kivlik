@@ -9,22 +9,22 @@ import playstore from '../assests/playstore.png';
 import appstore from '../assests/appstore.png';
 
 const socialMedia = [
-    { name: 'facebook', icon: facebook, url: "#" },
-    { name: 'instagram', icon: instagram, url: "#" },
-    { name: 'twitter', icon: twitter, url: "#" },
-    { name: 'youtube', icon: youtube, url: "#" },
+    { name: 'facebook', icon: facebook, url: "/" },
+    { name: 'instagram', icon: instagram, url: "/" },
+    { name: 'twitter', icon: twitter, url: "/" },
+    { name: 'youtube', icon: youtube, url: "/" },
 ]
 const company = [
-    { name: "Who We Are", url: '#' },
-    { name: "Blog", url: '#' },
-    { name: "careers", url: '#' },
-    { name: "Report Fraud", url: '#' },
-    { name: "contact", url: '#' },
-    { name: "Investor Relations", url: '#' },
+    { name: "Who We Are", url: '/' },
+    { name: "Blog", url: '/' },
+    { name: "careers", url: '/' },
+    { name: "Report Fraud", url: '/' },
+    { name: "contact", url: '/' },
+    { name: "Investor Relations", url: '/' },
 ]
 const downloadOptions = [
-    { name:"appstore",icon: appstore, url: "#" },
-    { name:"playstore",icon: playstore, url: "#" },
+    { name:"appstore",icon: appstore, url: "/" },
+    { name:"playstore",icon: playstore, url: "/" },
 ]
 
 function Footer() {
@@ -33,7 +33,7 @@ function Footer() {
             <div className=' mx-3 md:mx-28 py-14 flex text-[20px] '>
                 <div className='grid grid-cols-8  gap-10 md:gap-0'>
                     <div className='col-start-1 col-end-9 md:col-start-1 md:col-end-4 '>
-                        <img src={logo2} />
+                        <img src={logo2} alt="logo" />
                         <p className='pt-5 '>KIVLIK is a mobile steam car wash company, which offers premium car wash and detailing services at your doorstep. Conveniently book a car wash with a few taps on your phone. KIVLIK has several packages to meet your budget and requirements. Conveniently book a carwash with a few taps using the KIVLIK App or website. You can pick a time, location and package from the App or web. KIVLIK washes each vehicle using our Steam Cleaning system.</p>
                     </div>
                     <div className=' col-start-1 col-end-4 md:col-start-4 md:col-end-6 md:px-16'>
@@ -52,7 +52,7 @@ function Footer() {
                             <p className='text-[30px] md:text-[40px] text-primary'>Help Center</p>
                         </div>
                         <div className='flex justify-end'>
-                            <img src={arrow} />
+                            <img src={arrow} alt="arrow" />
                         </div>
                         <p>
                             Follow Us</p>

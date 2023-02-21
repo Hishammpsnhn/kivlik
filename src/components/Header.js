@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assests/logo.png'
-import SideNav from './SideNav'
+
 
 function Header({ SetsideNav, Navdata }) {
     const [activeTab, setActiveTab] = useState('About Us')
@@ -37,8 +37,8 @@ function Header({ SetsideNav, Navdata }) {
 
                         </nav>
                         <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-                            <a href="#" className="whitespace-nowrap  text-[25px]  text-white hover:opacity-25">Login</a>
-                            <a href="#" className="ml-8 whitespace-nowrap text-[25px]  text-white hover:opacity-25">Sign Up</a>
+                            <a href="/" className="whitespace-nowrap  text-[25px]  text-white hover:opacity-25">Login</a>
+                            <a href="/" className="ml-8 whitespace-nowrap text-[25px]  text-white hover:opacity-25">Sign Up</a>
 
                         </div>
                     </div>

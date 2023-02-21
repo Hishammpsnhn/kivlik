@@ -12,12 +12,12 @@ function SideNav({ Navdata }) {
                         >{items.item}</li>
                     </a>
                 ))}
-                <a href="#">
+                <a href="/">
                     <li
                         className={` p-3 hover:opacity-60  text-lg font-poppins font-semibold  `}
                     >Login</li>
                 </a>
-                <a href='#'>
+                <a href='/'>
                     <li
                         className={` p-3 hover:opacity-60 text-lg font-poppins font-semibold `}
                     >Sign Up</li>

@@ -5,13 +5,14 @@ import chair from '../assests/Group 542.png'
 import Form from '../components/Form';
 import Footer from '../components/Footer';
 import SideNav from '../components/SideNav';
+
 const Navdata = [
     { item: "About Us", url: '#' },
     { item: "Services", url: '#' },
     { item: "Princing", url: '#' },
     { item: "Contact", url: '#' },
-
 ]
+
 function Home() {
     const [sidenav, SetsideNav] = useState(false);
     return (
