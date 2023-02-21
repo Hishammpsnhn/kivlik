@@ -3,7 +3,7 @@ import React from 'react'
 function SideNav({ Navdata }) {
 
     return (
-        <div className='w-full opacity-1' >
+        <div className='w-full opacity-1 fixed bg-[#0BADD3]' >
             <ul>
                 {Navdata.map((items, i) => (
                     <a href={items.url}>
