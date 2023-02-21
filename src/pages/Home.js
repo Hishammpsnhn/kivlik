@@ -31,7 +31,7 @@ function Home() {
 
                             </div>
                         </div>
-                        <img className='md:col-span-2 col-span-5 md:w-[350px] md:h-[500px] sm:w-[250px] sm:h-[400px] w-[150px] h-[250px] mt-[25px]' src={chair} />
+                        <img className='md:col-span-2 col-span-5 md:w-[350px] md:h-[500px] sm:w-[250px] sm:h-[400px] w-[150px] h-[250px] mt-[25px]' src={chair} alt="chair"/>
                     </div>
                 <Form />
                 <Footer />
